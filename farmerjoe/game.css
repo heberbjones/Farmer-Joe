@@ -1,0 +1,62 @@
+#gamearea {  width:1020px; height:550px; 
+background-repeat:no-repeat; background-size:cover;
+overflow-x:hidden;
+cursor:crosshair; overflow-y:hidden;
+margin:0 0 0 50px;
+}
+
+
+
+#gameoptions {
+	
+	width:50px; 
+	background-color:white;
+	height:550px;
+	z-index:101;
+
+	border:black 1px solid;
+	
+	color:black;
+	overflow-x:hidden;
+	overflow-y:hidden;
+}
+
+#whenopen {display:none;}
+
+.icons {font-size:40px; margin:0 0 0 -8px;}
+.icons:hover {cursor:pointer; color:#00cc00;}
+
+.option, a {text-align:center; display:block; text-decoration:none;}
+.option:hover, a:hover {color:#00cc00; cursor:pointer; text-decoration:none;}
+
+.optiontitl {text-align:center; cursor:default;}
+
+.movableObject {
+	border:yellow 5px dotted;
+	
+}
+
+
+
+#closegto:hover, #closeshp:hover {color:#00cc00; cursor:pointer;}
+
+#goTo, #shop {display:none;
+width:100%; border-top:black 1px solid;
+
+}
+
+#footer {
+	display:none;
+background-color:white;
+width:1050px; 
+position:absolute;
+top:550px;
+height:50px;
+border:black 1px solid;
+color:black;
+font-size:100px;
+padding:5px
+}
+
+
+body {background-color:rgb(240,240,240); overflow-x:hidden;}

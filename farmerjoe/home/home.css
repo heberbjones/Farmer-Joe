@@ -1,0 +1,11 @@
+#joe {
+margin-top:417px;
+margin-left:900px;
+ z-index:1000000;
+width:100px;
+
+}
+
+#gamearea {
+	background-image:url(homepics/wall.png);
+}
