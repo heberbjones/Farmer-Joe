@@ -1,4 +1,7 @@
- function getkey (event) {
+var joesposleft = 900;
+var joespostop = 417; 
+
+function getkey (event) {
  key = event.keyCode;
 
  if (key == 16 && joesposleft >= 800 && joespostop >= 300 && joesposleft <= 934 && joespostop <= 550) {
@@ -27,6 +30,5 @@ placeJoe();
 
 //*
 
-}var joespostop = 417;
-var joesposleft = 900;
+}
 
