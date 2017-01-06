@@ -1,3 +1,4 @@
+// this is a test commend
 var joe = document.getElementById("joe");
 var joesSpd = 5;
 var key;
